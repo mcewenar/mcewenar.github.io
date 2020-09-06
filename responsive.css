@@ -4,10 +4,6 @@
     box-sizing: border-box;
     text-align: center;
 }
-
-/*MISTAKES. IGNORE, PLEASE
-
-
 h1 {
     text-align: center;
     color: greenyellow;
@@ -16,6 +12,41 @@ h1 {
  h2 {
     font-weight: bold;
 }
+
+
+
+/*desktop*/
+@media (min-width: 992px){
+	.boxes .block{
+	float: left;
+	width: 33.33%;
+}
+}
+		
+/*Tablet*/
+@media (min-width: 768px) and (max-width: 991px) {
+	.boxes .block{
+		float: left;
+		width: 50%;
+	}
+	.block:nth-child(3){
+		width: 100%;
+	}
+}
+
+/*mobile*/
+@media (max-width: 767px){
+
+}
+
+
+
+
+
+/*MISTAKES. IGNORE, PLEASE
+
+
+
 #div1 {
     background-color: grey;
     box-sizing: border-box;
