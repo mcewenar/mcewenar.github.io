@@ -4,18 +4,21 @@
     box-sizing: border-box;
     text-align: center;
 }
-body{
+body {
 	font-family: "Comic Sans MS", cursive, sans-serif;
     font-size: 125%;
+
 }
 h1 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-
- h2 {
+p {
+    padding: 30px 0px 30px 0px;
+}
+h2 {
     font-weight: bold;
 }
-.bl > div{
+.bl > div {
 	border: 2px solid rgb(4, 2, 5);
 	background: rgb(19, 42, 141);
 	margin: 15px 15px;
@@ -23,7 +26,6 @@ h1 {
 }
 
 .block-sectio {
-    text-align: center;
 	border: 1px solid black;
 	top: 0;
 	right: 0;
@@ -60,16 +62,17 @@ a:active {
 
 /*MEDIA QUERIES*/
 /*desktop*/
-@media (min-width: 992px){
-	.boxes .bl{
-	float: left;
-	width: 33.33%;
+@media (min-width: 992px) {
+	.boxes .bl {
+	    float: left;
+        width: 33.33%;
+    }
 }
 
 		
 /*Tablet*/
 @media (min-width: 768px) and (max-width: 991px) {
-	.boxes .bl{
+	.boxes .bl {
 		float: left;
 		width: 50%;
 	}
