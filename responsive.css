@@ -2,7 +2,12 @@
 * {
     background-color: rgb(85, 198, 226);    
     box-sizing: border-box;
+    text-align: center;
 }
+
+/*MISTAKES. IGNORE, PLEASE
+
+
 h1 {
     text-align: center;
     color: greenyellow;
@@ -10,7 +15,6 @@ h1 {
 
  h2 {
     font-weight: bold;
-
 }
 #div1 {
     background-color: grey;
@@ -20,6 +24,7 @@ h1 {
     float: left;
     border: 3px solid black;
     margin: 0;
+
 }
 #div2 {
     background-color: lightsteelblue; 
@@ -67,7 +72,7 @@ h1 {
         padding: 10px 20px;
     }
 }
-/*hr {
+hr {
     clear: left;
     float: bottom;
     bottom: -100px;
