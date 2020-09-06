@@ -1,0 +1,93 @@
+/*CSS FILE RESPONSIVE */
+* {
+    background-color: rgb(85, 198, 226);    
+    box-sizing: border-box;
+}
+h1 {
+    text-align: center;
+    color: greenyellow;
+}
+
+ h2 {
+    font-weight: bold;
+
+}
+#div1 {
+    background-color: grey;
+    box-sizing: border-box;
+    width: 360px;
+    height: 150px;
+    float: left;
+    border: 3px solid black;
+    margin: 0;
+}
+#div2 {
+    background-color: lightsteelblue; 
+    box-sizing: border-box;
+    width: 360px;
+    height: 150px;
+    float: left;
+    border: 3px solid lightblue; 
+    margin: 0;  
+}
+#div3 {
+    background-color: mediumseagreen;
+    position: relative;
+    box-sizing: border-box;
+    width: 360px;
+    height: 150px;
+    float: left;
+    border: 3px solid lightseagreen;
+    margin: 0;
+}
+@media (max-width:767px) {
+    
+    div {
+        width: auto;
+        float: left;
+        margin: 10px 1%;
+        padding: 10px 20px;
+    }
+}
+@media (min-width: 768px) and (max-width:991px) {
+    #div3 {
+        width: auto%;
+        float: left;
+        margin: 10px 1%;
+        padding: 10px 20px;
+    }
+    
+
+}
+@media (min-width: 992px) {
+    div {
+        width: 98%;
+        float: left;
+        margin: 10px 1%;
+        padding: 10px 20px;
+    }
+}
+/*hr {
+    clear: left;
+    float: bottom;
+    bottom: -100px;
+}*/
+a {
+    clear: left;
+    bottom: -100px;
+    text-align: center;
+}
+a:link {
+    position: relative;
+    display: block;
+
+}
+a:visited {
+    color: red;
+}
+a:hover {
+    color: #123456;
+}
+a:active {
+    color:blueviolet;
+}
