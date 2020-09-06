@@ -1,41 +1,86 @@
 /*CSS FILE RESPONSIVE */
 * {
-    background-color: rgb(85, 198, 226);    
+    background-color: rgb(85, 198, 226);  
     box-sizing: border-box;
     text-align: center;
 }
+body{
+	font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 125%;
+}
 h1 {
-    text-align: center;
-    color: greenyellow;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
  h2 {
     font-weight: bold;
 }
+.bl > div{
+	border: 2px solid rgb(4, 2, 5);
+	background: rgb(19, 42, 141);
+	margin: 15px 15px;
+    position: relative;
+}
 
+.block-sectio {
+    text-align: center;
+	border: 1px solid black;
+	top: 0;
+	right: 0;
+}
+.block-sectio h2 {
+    margin: 0;
+}
 
+.square > p {
+    border: 2px solid lightslategray;
+    background-image: url("summer-5341326_1920.jpg");
+    background-repeat: no-repeat;
+}
+/* pseudoclass*/
+a {
+    clear: left;
+    bottom: -100px;
+    text-align: center;
+}
+a:link {
+    position: relative;
+    display: block;
 
+}
+a:visited {
+    color: red;
+}
+a:hover {
+    color: #123456;
+}
+a:active {
+    color:blueviolet;
+}
+
+/*MEDIA QUERIES*/
 /*desktop*/
 @media (min-width: 992px){
-	.boxes .block{
+	.boxes .bl{
 	float: left;
 	width: 33.33%;
 }
-}
+
 		
 /*Tablet*/
 @media (min-width: 768px) and (max-width: 991px) {
-	.boxes .block{
+	.boxes .bl{
 		float: left;
 		width: 50%;
 	}
-	.block:nth-child(3){
+	.bl:nth-child(3) {
 		width: 100%;
 	}
 }
 
 /*mobile*/
-@media (max-width: 767px){
+@media (max-width: 767px) {
+
 
 }
 
@@ -108,22 +153,3 @@ hr {
     float: bottom;
     bottom: -100px;
 }*/
-a {
-    clear: left;
-    bottom: -100px;
-    text-align: center;
-}
-a:link {
-    position: relative;
-    display: block;
-
-}
-a:visited {
-    color: red;
-}
-a:hover {
-    color: #123456;
-}
-a:active {
-    color:blueviolet;
-}
