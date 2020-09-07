@@ -83,13 +83,10 @@ a:active {
 
 /*mobile*/
 @media (max-width: 767px) {
-
-
+    .boxes {
+        overflow: auto; 
+    }
 }
-
-
-
-
 
 /*MISTAKES. IGNORE, PLEASE
 
