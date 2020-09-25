@@ -1,5 +1,5 @@
 # mcewenar.github.io
-Static webpage
+Responsive webpage without Bootstrap.
 
 
 URL: mcewenar.github.io
